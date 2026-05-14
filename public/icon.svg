@@ -1,0 +1,9 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <!-- Light-blue full track ring (edge-to-edge) -->
+  <circle cx="64" cy="64" r="57" fill="none" stroke="oklch(90% 0.05 240)" stroke-width="14"/>
+  <!-- Blue progress arc — 270° (2*pi*57 = 358.14; 270° = 268.6) -->
+  <circle cx="64" cy="64" r="57" fill="none" stroke="oklch(58% 0.13 240)" stroke-width="14"
+          stroke-linecap="round" stroke-dasharray="269 358" transform="rotate(-90 64 64)"/>
+  <!-- Green center dot — proportionally larger -->
+  <circle cx="64" cy="64" r="26" fill="oklch(0.7 0.18 155)"/>
+</svg>
